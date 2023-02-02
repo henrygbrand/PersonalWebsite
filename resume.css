@@ -27,12 +27,12 @@ p {
 .top-area {
     display: flex;
     flex-direction: row;
-    background-color: lightblue;
     flex: 1;
 }
 
 .lower-area {
     flex: 3;
+    display: flex;
 }
 
 .henry-image {
@@ -51,9 +51,27 @@ p {
 }
 
 .header-text {
+    height: 130px;
     margin-top: 30px;
     margin-bottom: 5px;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin: 0;
+}
+
+.resume-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 200px;
+    animation: resume-text 1s infinite;
+
 }
