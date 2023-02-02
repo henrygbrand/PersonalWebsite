@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 1200px;
+    background-image: url(background.jpg);
+    backdrop-filter: blur(5px);
+}
+
+
+p {
+    font-family: Roboto, Arial;
+    display: inline-block;
+}
+
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 1200px;
+    border-radius: 40px;
+    backdrop-filter: blur(5px);
+    background-color: white;
+}
+
+.top-area {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    flex: 1;
+}
+
+.lower-area {
+    flex: 3;
+}
+
+.henry-image {
+    max-height: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+    flex: 1;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.header-text {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
