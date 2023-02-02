@@ -70,8 +70,11 @@ p {
 .resume-text {
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 200px;
     animation: resume-text 1s infinite;
-
+    position: fixed;
+    top: 500px;
+    left: 26%;
+    z-index: 100;
 }
